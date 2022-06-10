@@ -19,7 +19,7 @@ function Skill() {
       <div className='gradient__block skill__topband'></div>
       <div className='app__skills-list'>
         {skills.map((skill, index) => (
-          <motion.div key={skill.title + index}
+          <motion.div key={index}
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
           >
@@ -30,8 +30,9 @@ function Skill() {
         </div>
         <div className='gradient__block skill__botband'></div>
     </div>
+    <div id='work' style={{ position: 'relative' , bottom: '72px'}}></div>
     </div>
-
+    
   )
 }
 

@@ -12,11 +12,13 @@
   --white-color: #ffffff;
   --gradient-text: linear-gradient(89.97deg, #1973d5 1.84%, #FF4820 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #1973d5 19.86%, #FF4820 99.55%);
+  --gradient-button: linear-gradient(135deg, rgba(25,115,213,1) 13%, rgba(255,72,32,1) 83%, rgba(255,72,32,1) 100%);
   --color-bg: #040C18;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF4820;
+  --color-input: #052D56;
 }
 
 * {

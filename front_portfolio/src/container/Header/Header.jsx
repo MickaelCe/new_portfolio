@@ -21,7 +21,7 @@ function Header() {
           </div>
           <h1 className='gradient__text'>Mickael Cecen</h1>
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>DÉVELOPPEUR WEB JUNIOR</p>
+            <p className='p-text'>junior web developer</p>
           </div>
         </div>
       </motion.div>
