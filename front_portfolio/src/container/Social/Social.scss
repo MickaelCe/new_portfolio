@@ -6,6 +6,10 @@
     svg{
         font-size: 3rem;
         color: var(--gray-color);
+        transition: color 0.5s;
+        &:hover{
+            color: var(--color-subtext);
+        }
         @media screen and (min-width: 2000px) {
             font-size: 4rem;
         }
