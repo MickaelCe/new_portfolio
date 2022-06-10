@@ -13,16 +13,25 @@ function Skill() {
   }, []);
   
   return (
-    <div>
+    <div className="app__skills-section">
       <h2 className='head-text'>Skills</h2>
+      <div className="app__skills-container">
+      <div className='gradient__block skill__topband'></div>
       <div className='app__skills-list'>
         {skills.map((skill, index) => (
-          <motion.div key={skill.title + index}>
+          <motion.div key={skill.title + index}
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+          >
             <img src={urlFor(skill.icon)} alt="" />
+            <p>{skill.name}</p>
           </motion.div>
         )) }
-      </div>
+        </div>
+        <div className='gradient__block skill__botband'></div>
     </div>
+    </div>
+
   )
 }
 
